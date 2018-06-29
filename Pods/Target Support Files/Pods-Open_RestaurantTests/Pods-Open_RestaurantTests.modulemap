@@ -1,0 +1,6 @@
+framework module Pods_Open_RestaurantTests {
+  umbrella header "Pods-Open_RestaurantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

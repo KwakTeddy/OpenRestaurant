@@ -17,9 +17,9 @@ extension UINavigationController {
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
         self.navigationBar.isTranslucent = true
-        self.navigationBar.tintColor = UIColor.white
-        self.navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Rubik-Medium", size: 20)!,
-                                                  NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.navigationBar.tintColor = UIColor.black
+//        self.navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Rubik", size: 20)!,
+//                                                  NSAttributedStringKey.foregroundColor: UIColor.white]
         
     }
 }

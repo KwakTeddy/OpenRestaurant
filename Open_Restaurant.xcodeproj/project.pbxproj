@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403353420E3306E0006F702 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403353320E3306E0006F702 /* WalkthroughPageViewController.swift */; };
+		0403353620E330DE0006F702 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403353520E330DE0006F702 /* WalkthroughContentViewController.swift */; };
+		0403353820E36E8E0006F702 /* UINavigationController+Transparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403353720E36E8E0006F702 /* UINavigationController+Transparent.swift */; };
+		0403353A20E381C20006F702 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403353920E381C20006F702 /* SignUpVC.swift */; };
+		0403353C20E38B710006F702 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403353B20E38B710006F702 /* SignInVC.swift */; };
+		0417912B20E0D85E00C5F371 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0417912A20E0D85E00C5F371 /* GoogleService-Info.plist */; };
+		044C0E7E20E2314F008277A1 /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044C0E7D20E2314F008277A1 /* LineButton.swift */; };
+		044C0E8920E2325B008277A1 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8820E23240008277A1 /* Rubik-Black.ttf */; };
+		044C0E8A20E2325B008277A1 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E7F20E2323E008277A1 /* Rubik-BlackItalic.ttf */; };
+		044C0E8B20E2325B008277A1 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8420E2323F008277A1 /* Rubik-Bold.ttf */; };
+		044C0E8C20E2325B008277A1 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8020E2323E008277A1 /* Rubik-BoldItalic.ttf */; };
+		044C0E8D20E2325B008277A1 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8120E2323E008277A1 /* Rubik-Italic.ttf */; };
+		044C0E8E20E2325B008277A1 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8720E23240008277A1 /* Rubik-Light.ttf */; };
+		044C0E8F20E2325B008277A1 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8320E2323E008277A1 /* Rubik-LightItalic.ttf */; };
+		044C0E9020E2325B008277A1 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8520E2323F008277A1 /* Rubik-Medium.ttf */; };
+		044C0E9120E2325B008277A1 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8620E2323F008277A1 /* Rubik-MediumItalic.ttf */; };
+		044C0E9220E2325B008277A1 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 044C0E8220E2323E008277A1 /* Rubik-Regular.ttf */; };
 		04C6BA2920E0C43E00DE2B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6BA2820E0C43E00DE2B6A /* AppDelegate.swift */; };
 		04C6BA2B20E0C43E00DE2B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6BA2A20E0C43E00DE2B6A /* ViewController.swift */; };
 		04C6BA2E20E0C43E00DE2B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C6BA2C20E0C43E00DE2B6A /* Main.storyboard */; };
@@ -14,6 +31,11 @@
 		04C6BA3320E0C44100DE2B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C6BA3120E0C44100DE2B6A /* LaunchScreen.storyboard */; };
 		04C6BA3E20E0C44100DE2B6A /* Open_RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6BA3D20E0C44100DE2B6A /* Open_RestaurantTests.swift */; };
 		04C6BA4920E0C44100DE2B6A /* Open_RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6BA4820E0C44100DE2B6A /* Open_RestaurantUITests.swift */; };
+		04EF676620E0DAD7005FAA49 /* yachae_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EF676320E0DA0A005FAA49 /* yachae_Bold.ttf */; };
+		04EF676720E0DAD7005FAA49 /* yachae_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EF676420E0DA0A005FAA49 /* yachae_Regular.ttf */; };
+		2301084E12B21D6F20A57005 /* Pods_Open_RestaurantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C716C94E8127AEB7307E64E /* Pods_Open_RestaurantUITests.framework */; };
+		523619B202BD63D0A08650E6 /* Pods_Open_Restaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DCDEC1EEB1FF6252109E09 /* Pods_Open_Restaurant.framework */; };
+		A6E40F0A340996B14FB9A5A9 /* Pods_Open_RestaurantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B320E0F96FC1F103B0F44D1 /* Pods_Open_RestaurantTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0403353320E3306E0006F702 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		0403353520E330DE0006F702 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		0403353720E36E8E0006F702 /* UINavigationController+Transparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transparent.swift"; sourceTree = "<group>"; };
+		0403353920E381C20006F702 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0403353B20E38B710006F702 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		0417912A20E0D85E00C5F371 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		044C0E7D20E2314F008277A1 /* LineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineButton.swift; sourceTree = "<group>"; };
+		044C0E7F20E2323E008277A1 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		044C0E8020E2323E008277A1 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		044C0E8120E2323E008277A1 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		044C0E8220E2323E008277A1 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		044C0E8320E2323E008277A1 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		044C0E8420E2323F008277A1 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		044C0E8520E2323F008277A1 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		044C0E8620E2323F008277A1 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		044C0E8720E23240008277A1 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		044C0E8820E23240008277A1 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
 		04C6BA2520E0C43E00DE2B6A /* Open_Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Open_Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C6BA2820E0C43E00DE2B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C6BA2A20E0C43E00DE2B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +86,17 @@
 		04C6BA4420E0C44100DE2B6A /* Open_RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Open_RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C6BA4820E0C44100DE2B6A /* Open_RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_RestaurantUITests.swift; sourceTree = "<group>"; };
 		04C6BA4A20E0C44100DE2B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF676320E0DA0A005FAA49 /* yachae_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yachae_Bold.ttf; sourceTree = "<group>"; };
+		04EF676420E0DA0A005FAA49 /* yachae_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yachae_Regular.ttf; sourceTree = "<group>"; };
+		2B59E788B6FF2E30568DE6BA /* Pods-Open_RestaurantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_RestaurantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open_RestaurantTests/Pods-Open_RestaurantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE31CB1CD7B9C079C01095F /* Pods-Open_RestaurantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_RestaurantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open_RestaurantTests/Pods-Open_RestaurantTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C166F0C25FD60986F4AC36E /* Pods-Open_RestaurantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_RestaurantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open_RestaurantUITests/Pods-Open_RestaurantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48DCDEC1EEB1FF6252109E09 /* Pods_Open_Restaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Restaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5302D59BD607026C09FC24A0 /* Pods-Open_Restaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_Restaurant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open_Restaurant/Pods-Open_Restaurant.debug.xcconfig"; sourceTree = "<group>"; };
+		7B320E0F96FC1F103B0F44D1 /* Pods_Open_RestaurantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_RestaurantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837D97E2A6EBDC60C68732EB /* Pods-Open_RestaurantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_RestaurantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Open_RestaurantUITests/Pods-Open_RestaurantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C716C94E8127AEB7307E64E /* Pods_Open_RestaurantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_RestaurantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4892FE99E71E9FCA187F6FB /* Pods-Open_Restaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open_Restaurant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Open_Restaurant/Pods-Open_Restaurant.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523619B202BD63D0A08650E6 /* Pods_Open_Restaurant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E40F0A340996B14FB9A5A9 /* Pods_Open_RestaurantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2301084E12B21D6F20A57005 /* Pods_Open_RestaurantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +134,8 @@
 				04C6BA3C20E0C44100DE2B6A /* Open_RestaurantTests */,
 				04C6BA4720E0C44100DE2B6A /* Open_RestaurantUITests */,
 				04C6BA2620E0C43E00DE2B6A /* Products */,
+				07B7CA8BE9FEA5DE656383DA /* Pods */,
+				EA8C3FF3FA84E5CEAF222550 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +152,19 @@
 		04C6BA2720E0C43E00DE2B6A /* Open_Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				0403353720E36E8E0006F702 /* UINavigationController+Transparent.swift */,
+				044C0E7D20E2314F008277A1 /* LineButton.swift */,
+				04EF676520E0DA18005FAA49 /* Fonts */,
 				04C6BA2820E0C43E00DE2B6A /* AppDelegate.swift */,
 				04C6BA2A20E0C43E00DE2B6A /* ViewController.swift */,
 				04C6BA2C20E0C43E00DE2B6A /* Main.storyboard */,
+				0403353B20E38B710006F702 /* SignInVC.swift */,
+				0403353920E381C20006F702 /* SignUpVC.swift */,
+				0403353320E3306E0006F702 /* WalkthroughPageViewController.swift */,
+				0403353520E330DE0006F702 /* WalkthroughContentViewController.swift */,
 				04C6BA2F20E0C44100DE2B6A /* Assets.xcassets */,
 				04C6BA3120E0C44100DE2B6A /* LaunchScreen.storyboard */,
+				0417912A20E0D85E00C5F371 /* GoogleService-Info.plist */,
 				04C6BA3420E0C44100DE2B6A /* Info.plist */,
 			);
 			path = Open_Restaurant;
@@ -125,6 +188,48 @@
 			path = Open_RestaurantUITests;
 			sourceTree = "<group>";
 		};
+		04EF676520E0DA18005FAA49 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				044C0E8820E23240008277A1 /* Rubik-Black.ttf */,
+				044C0E7F20E2323E008277A1 /* Rubik-BlackItalic.ttf */,
+				044C0E8420E2323F008277A1 /* Rubik-Bold.ttf */,
+				044C0E8020E2323E008277A1 /* Rubik-BoldItalic.ttf */,
+				044C0E8120E2323E008277A1 /* Rubik-Italic.ttf */,
+				044C0E8720E23240008277A1 /* Rubik-Light.ttf */,
+				044C0E8320E2323E008277A1 /* Rubik-LightItalic.ttf */,
+				044C0E8520E2323F008277A1 /* Rubik-Medium.ttf */,
+				044C0E8620E2323F008277A1 /* Rubik-MediumItalic.ttf */,
+				044C0E8220E2323E008277A1 /* Rubik-Regular.ttf */,
+				04EF676320E0DA0A005FAA49 /* yachae_Bold.ttf */,
+				04EF676420E0DA0A005FAA49 /* yachae_Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		07B7CA8BE9FEA5DE656383DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5302D59BD607026C09FC24A0 /* Pods-Open_Restaurant.debug.xcconfig */,
+				A4892FE99E71E9FCA187F6FB /* Pods-Open_Restaurant.release.xcconfig */,
+				2B59E788B6FF2E30568DE6BA /* Pods-Open_RestaurantTests.debug.xcconfig */,
+				2CE31CB1CD7B9C079C01095F /* Pods-Open_RestaurantTests.release.xcconfig */,
+				837D97E2A6EBDC60C68732EB /* Pods-Open_RestaurantUITests.debug.xcconfig */,
+				3C166F0C25FD60986F4AC36E /* Pods-Open_RestaurantUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA8C3FF3FA84E5CEAF222550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48DCDEC1EEB1FF6252109E09 /* Pods_Open_Restaurant.framework */,
+				7B320E0F96FC1F103B0F44D1 /* Pods_Open_RestaurantTests.framework */,
+				8C716C94E8127AEB7307E64E /* Pods_Open_RestaurantUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C6BA4D20E0C44100DE2B6A /* Build configuration list for PBXNativeTarget "Open_Restaurant" */;
 			buildPhases = (
+				9E52B077A1B4321814A43682 /* [CP] Check Pods Manifest.lock */,
 				04C6BA2120E0C43E00DE2B6A /* Sources */,
 				04C6BA2220E0C43E00DE2B6A /* Frameworks */,
 				04C6BA2320E0C43E00DE2B6A /* Resources */,
+				24089CA4CB7DBECB2BA54356 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C6BA5020E0C44100DE2B6A /* Build configuration list for PBXNativeTarget "Open_RestaurantTests" */;
 			buildPhases = (
+				0609DFD7756FD616D6D816EE /* [CP] Check Pods Manifest.lock */,
 				04C6BA3520E0C44100DE2B6A /* Sources */,
 				04C6BA3620E0C44100DE2B6A /* Frameworks */,
 				04C6BA3720E0C44100DE2B6A /* Resources */,
@@ -167,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04C6BA5320E0C44100DE2B6A /* Build configuration list for PBXNativeTarget "Open_RestaurantUITests" */;
 			buildPhases = (
+				B32B7142CA5D02CC452735CC /* [CP] Check Pods Manifest.lock */,
 				04C6BA4020E0C44100DE2B6A /* Sources */,
 				04C6BA4120E0C44100DE2B6A /* Frameworks */,
 				04C6BA4220E0C44100DE2B6A /* Resources */,
@@ -229,7 +338,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044C0E8920E2325B008277A1 /* Rubik-Black.ttf in Resources */,
+				044C0E8A20E2325B008277A1 /* Rubik-BlackItalic.ttf in Resources */,
+				044C0E8B20E2325B008277A1 /* Rubik-Bold.ttf in Resources */,
+				044C0E8C20E2325B008277A1 /* Rubik-BoldItalic.ttf in Resources */,
+				044C0E8D20E2325B008277A1 /* Rubik-Italic.ttf in Resources */,
+				044C0E8E20E2325B008277A1 /* Rubik-Light.ttf in Resources */,
+				044C0E8F20E2325B008277A1 /* Rubik-LightItalic.ttf in Resources */,
+				044C0E9020E2325B008277A1 /* Rubik-Medium.ttf in Resources */,
+				044C0E9120E2325B008277A1 /* Rubik-MediumItalic.ttf in Resources */,
+				044C0E9220E2325B008277A1 /* Rubik-Regular.ttf in Resources */,
+				04EF676620E0DAD7005FAA49 /* yachae_Bold.ttf in Resources */,
+				04EF676720E0DAD7005FAA49 /* yachae_Regular.ttf in Resources */,
 				04C6BA3320E0C44100DE2B6A /* LaunchScreen.storyboard in Resources */,
+				0417912B20E0D85E00C5F371 /* GoogleService-Info.plist in Resources */,
 				04C6BA3020E0C44100DE2B6A /* Assets.xcassets in Resources */,
 				04C6BA2E20E0C43E00DE2B6A /* Main.storyboard in Resources */,
 			);
@@ -251,13 +373,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0609DFD7756FD616D6D816EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Open_RestaurantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24089CA4CB7DBECB2BA54356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Open_Restaurant/Pods-Open_Restaurant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Open_Restaurant/Pods-Open_Restaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E52B077A1B4321814A43682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Open_Restaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B32B7142CA5D02CC452735CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Open_RestaurantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04C6BA2120E0C43E00DE2B6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0403353A20E381C20006F702 /* SignUpVC.swift in Sources */,
+				0403353820E36E8E0006F702 /* UINavigationController+Transparent.swift in Sources */,
+				0403353C20E38B710006F702 /* SignInVC.swift in Sources */,
 				04C6BA2B20E0C43E00DE2B6A /* ViewController.swift in Sources */,
 				04C6BA2920E0C43E00DE2B6A /* AppDelegate.swift in Sources */,
+				0403353420E3306E0006F702 /* WalkthroughPageViewController.swift in Sources */,
+				0403353620E330DE0006F702 /* WalkthroughContentViewController.swift in Sources */,
+				044C0E7E20E2314F008277A1 /* LineButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +639,13 @@
 		};
 		04C6BA4E20E0C44100DE2B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5302D59BD607026C09FC24A0 /* Pods-Open_Restaurant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BBN2RSJU;
 				INFOPLIST_FILE = Open_Restaurant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +659,13 @@
 		};
 		04C6BA4F20E0C44100DE2B6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4892FE99E71E9FCA187F6FB /* Pods-Open_Restaurant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52BBN2RSJU;
 				INFOPLIST_FILE = Open_Restaurant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +679,7 @@
 		};
 		04C6BA5120E0C44100DE2B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B59E788B6FF2E30568DE6BA /* Pods-Open_RestaurantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +701,7 @@
 		};
 		04C6BA5220E0C44100DE2B6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE31CB1CD7B9C079C01095F /* Pods-Open_RestaurantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +723,7 @@
 		};
 		04C6BA5420E0C44100DE2B6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837D97E2A6EBDC60C68732EB /* Pods-Open_RestaurantUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +744,7 @@
 		};
 		04C6BA5520E0C44100DE2B6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C166F0C25FD60986F4AC36E /* Pods-Open_RestaurantUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

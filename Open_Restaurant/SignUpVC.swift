@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class SignUpVC: UIViewController {
-
+    
+    @IBOutlet weak var nickNameTxtField: SkyFloatingLabelTextFieldWithIcon!
+    
+    @IBOutlet weak var emailTxtField: SkyFloatingLabelTextFieldWithIcon!
+    
+    @IBOutlet weak var passwordTxtField: SkyFloatingLabelTextFieldWithIcon!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        emailTxtField.delegate = self
         // Do any additional setup after loading the view.
     }
 
@@ -20,16 +28,39 @@ class SignUpVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+    
+    @IBAction func nextBtnTapped(_ sender: Any) {
+        
+        
+        
+        
+    }
+    
+    @IBAction func backBtnTapped(_ sender: Any) {
+        if let nav = self.navigationController {
+            nav.popViewController(animated: true)
+        }
+    }
+    
     
 
-    /*
-    // MARK: - Navigation
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+extension SignUpVC: UITextFieldDelegate {
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        
+        if let text = textField.text {
+            if let floatingLabelTextField = textField as? SkyFloatingLabelTextField {
+                if (text.count < 3 || !text.contains("@")) {
+                    floatingLabelTextField.errorMessage = "Invalid email"
+                } else {
+                    // The error message will only disappear when we reset it to nil or empty string
+                    floatingLabelTextField.errorMessage = ""
+                }
+            }
+        }
+        return true
     }
-    */
-
 }
