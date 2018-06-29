@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>613539656363-oaga5mqn3aenta2h226uoupuq98a9u76.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.613539656363-oaga5mqn3aenta2h226uoupuq98a9u76</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASkQBPdmfxqwXH9vSj9FUE9GnPXGAnVOw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>613539656363</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.teddy.Open-Restaurant</string>
+	<key>PROJECT_ID</key>
+	<string>open-restaurant-8e34d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>open-restaurant-8e34d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:613539656363:ios:952eaa3135bdaece</string>
+	<key>DATABASE_URL</key>
+	<string>https://open-restaurant-8e34d.firebaseio.com</string>
+</dict>
+</plist>
