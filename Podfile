@@ -8,6 +8,7 @@ target 'Open_Restaurant' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'RxSwift'
+pod 'ZKCarousel'
 
 pod 'SkyFloatingLabelTextField'
 

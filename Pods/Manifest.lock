@@ -30,12 +30,14 @@ PODS:
   - nanopb/encode (0.3.8)
   - RxSwift (4.2.0)
   - SkyFloatingLabelTextField (3.5.1)
+  - ZKCarousel (0.2.1)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - RxSwift
   - SkyFloatingLabelTextField
+  - ZKCarousel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -49,6 +51,7 @@ SPEC REPOS:
     - nanopb
     - RxSwift
     - SkyFloatingLabelTextField
+    - ZKCarousel
 
 SPEC CHECKSUMS:
   Firebase: 25ed0412036d7d008568d1fb4d2e9d81ea8a0a2c
@@ -61,7 +64,8 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
   SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  ZKCarousel: 2cb2a9bbfebfa50ff7e240ae061890cdc3ee3cd8
 
-PODFILE CHECKSUM: b8d7835fce445474462cba786359d6a7cd840206
+PODFILE CHECKSUM: 8ef7745cfb1ea87f7d8d035c39c7cad1d4591a48
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
